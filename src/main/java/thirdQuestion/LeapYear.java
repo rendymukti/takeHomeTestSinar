@@ -1,11 +1,7 @@
 package thirdQuestion;
 
-import java.math.BigInteger;
-import java.util.HashMap;
-import java.util.Map;
 import java.util.Scanner;
 
-import static com.sun.org.apache.xalan.internal.lib.ExsltDatetime.leapYear;
 
 public class LeapYear {
     public static void main(String[] args) {

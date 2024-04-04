@@ -14,10 +14,11 @@ public class CharCounter {
         Integer mode = 0;
         String givenString = "";
 
-        Map<String, Integer> counter = new TreeMap<>();
+
 
         while (mode != -1) {
             try {
+                Map<String, Integer> counter = new TreeMap<>();
                 System.out.println("Mode 1 - Character counter");
                 System.out.println("Mode -1 - Stop program!");
                 System.out.print("Masukan mode : ");
